@@ -7,12 +7,6 @@ This is a basic ERC20 token smart contract implemented in Solidity. The contract
 3. **Minting and Burning**: The contract allows the owner to mint new tokens to any address, and users can burn tokens from their own balance.
 4. **Transfer Function Override**: The transfer function is overridden to ensure sufficient balance before performing the transfer.
 
-## Contract Details
-
-- **Name**: Cyfer
-- **Symbol**: 202110320
-- **Initial Supply**: 1000 tokens (minted to the contract deployer's address)
-
 ## Functions
 
 ### 1. `mint(address to, uint256 amount)`
